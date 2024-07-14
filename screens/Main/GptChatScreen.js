@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { View, StyleSheet, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 import axios from 'axios';
 
-// const API_URL = 'http://3.34.107.88:8080';
 const API_URL = 'http://192.168.0.235:8080';
 
 const GptChatScreen = ({navigation}) => {
