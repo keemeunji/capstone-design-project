@@ -78,31 +78,3 @@ const styles = StyleSheet.create({
 });
 
 export default ChildGenderInput;
-
-
-// import React, { useState } from 'react';
-// import { View, Text, TextInput } from 'react-native';
-// import COLORS from '../constants/colors';
-// import { styles } from '../styles/stringInputStyles';
-
-// const ChildGenderInput = ({ value, onChangeText }) => {
-//   return (
-//     <View style={styles.container}>
-//       <Text style={styles.label}>아이의 성별</Text>
-//       <View style={styles.inputContainer}>
-//         <TextInput
-//           placeholder="아이의 성별을 입력하세요."
-//           placeholderTextColor={COLORS.gray}
-//           secureTextEntry={false}
-//           style={styles.input}
-//           keyboardType="default"
-//           value={value}
-//           onChangeText={onChangeText}
-//         />
-//       </View>
-//     </View>
-//   );
-// };
-
-// export default ChildGenderInput;
-
