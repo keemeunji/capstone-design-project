@@ -8,11 +8,8 @@ import EmailInput from '../../components/EmailInput';
 import PasswordInput from '../../components/PasswordInput';
 import axios from 'axios';
 import { styles } from '../../styles/loginScreenStyles';
-// import AsyncStorage from '@react-native-async-storage/async-storage'; // AsyncStorage 추가
 
-
-const API_URL = 'http://3.34.107.88:8080';
-// const API_URL = 'http://192.168.0.235:8080';
+const API_URL = 'http://192.168.0.235:8080';
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
